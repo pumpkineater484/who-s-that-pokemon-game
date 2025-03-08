@@ -1,0 +1,107 @@
+body{  
+  height: 100%; 
+  overflow: hidden;
+  }
+
+#game{
+  text-align: center;
+  border: 5px solid black;
+  height: 615px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  overflow: hidden;
+  border-radius: 10px;
+  background-color: red;
+}
+
+#myButton{
+  position: relative;
+  top: -80px;
+  height: 3rem;
+  width: 5rem;
+  border: solid blue;
+  border-radius: 10px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+
+}
+
+#myButton:hover {
+  background-color: yellow; 
+  transform: translateY(-3px); 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+#myButton:active{
+    transform: translateY(1px); 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#pokemon-name{
+  position: relative;
+  top: -80px;
+  height: 2rem;
+  border: solid blue;
+  border-radius: 10px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+
+}
+#pokemon-name:hover{
+  background-color: yellow;
+  transform: translateY(-3px);
+}
+#pokemon-name:active{
+  transform: translateY(1px); 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#result{
+  position: relative;
+  top: -115px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: larger;
+  font-weight: bold;
+  color: black;
+}
+
+
+  
+  .pokemon-image {
+    width: 17rem;
+    filter: grayscale(100%) brightness(0%);
+    text-align: center;
+    justify-content: center; 
+    align-items: center;  
+    height: 40vh;
+    margin-bottom: 10px;
+    position: relative;
+  top: -40px;
+    
+  }
+  
+  #timer {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  #img{
+    text-align: center;
+    justify-content: center; 
+    align-items: center;  
+    width: 13rem;
+  }
+
+
+  #pokemon-container{
+background-color: aqua;
+height: 1000vh;
+width: 1000vp;
+  }
+
+  #score{
+    position: relative;
+    top: -50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    font-weight: bold;
+    color: black;
+  }
